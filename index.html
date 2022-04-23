@@ -16,39 +16,45 @@
 		</header>
 
 			<form>
-				<label for="subject">Subject:</label>
-				<input type="text" id="subject" name="subject">
 
-				<label for="topic">Topic:</label>
-				<input type="text" id="topic" name="topic">
+				<section id="names">
 
-				<label for="test-date">Test Date:</label>
-				<input type="date" id="test-date" name="test-date">
+					<label for="subject">Subject:</label>
+					<input type="text" id="subject" name="subject">
 
-				<label for="start-studying-date">Start Studying Date:</label>
-				<input type="date" id="start-studying-date" name="start-studying-date">	
+					<label for="topic">Topic:</label>
+					<input type="text" id="topic" name="topic">
+
+				</section>	
+
+				<section id="dates">
+			
+					<label for="test-date">Test Date:</label>
+					<input type="date" id="test-date" name="test-date">
+
+					<label for="start-studying-date">Start Studying Date:</label>
+					<input type="date" id="start-studying-date" name="start-studying-date">	
 				
+				</section>
 				
 				<section id="objectives">
+
 					<p>Learning Objectives</p>
 						<span>+</span>
-						<label for="description-of-objectives">Description of Objectives:</label>
-						<input type="text" id="description-of-objectives" name="description-of-objectives">
+						<!-- <label for="description-of-objectives">Description of Objectives:</label> -->
+						<input type="text" id="description-of-objectives" name="description-of-objectives" placeholder="Objective Description">
 
-						<label for="difficulty-select">How difficult do you find this Objective?</label>
+						<label for="difficulty-select">Difficulty Rating</label>
 
-					<select name="pets" id="difficulty-select">
+					<select name="difficulty-rating" id="difficulty-select">
 						<option value="">--Please choose an option--</option>
 						<option value="dog">Easy</option>
 						<option value="cat">Good</option>
 						<option value="hamster">Hard</option>
 					</select>
 					
-
-
 				</section>
 				
-
 				<section id="duration">
 					<p>Length of study session:</p>
 

@@ -47,9 +47,27 @@ form {
      margin: auto;
      padding: 3vh;
      font-size: 1.5rem;
+     
 }
 
-)
+
+label {
+     display: block;
+     font: 1rem;
+ }
+ 
+ input, label {
+     margin: .4rem 0;
+ }
+
+ #names input {
+     background: #85A8C0;
+     border: none;
+     border-radius: 4px;
+     display: block;
+     width: 70vw;
+     height: 2rem;
+ }
 
 footer {
 
