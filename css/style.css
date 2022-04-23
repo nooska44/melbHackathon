@@ -60,15 +60,27 @@ label {
      margin: .4rem 0;
  }
 
- #names input, #dates input, #objectives input, .objective, #difficulty {
+ #names input, #dates input, #objectives input, .objective, .generate {
      background: #85A8C0;
      border: none;
      border-radius: 4px;
      display: block;
-     height: 2rem;
+     height: 2.5rem;
      padding: 4vh;
      margin: 2vh 0;
  }
+
+ #difficulty{
+      background: #85A8C0;
+      border: none;
+      border-radius: 4px;
+      text-align: center;
+      min-height: 2.5rem;
+      padding: 1vh;
+      margin: 2vh 0;
+      /* width: 0vw; */
+ }
+ 
 
  #names input {
       width: 100%;
@@ -80,26 +92,35 @@ label {
  }
 
 #objectives {
-     justify-content: flex-start;
+     justify-content: space-between;
 }
  
 .objective{
      border-radius: 50%;
 }
-/* 
-.styled, #difficulty{
-     color: black;
-} */
+
+#objectives-description{
+     width: 50vw;
+}
 
 .styled:hover {          
      background-color: #006494;
 }
      
-      
-     
-
-
+.generate{
+     background: #0A5081;
+     font-size: 1.5rem;
+     margin: none;
+     /* text-align: center; */
+     color: white;
+     padding: 5px;
+}
 footer {
+     margin-top: 10vh ;
+     display: flex;
+     justify-content: flex-end;
+
+
 
 }
 
