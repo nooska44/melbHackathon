@@ -27,22 +27,45 @@
 				<label for="start-studying-date">Start Studying Date:</label>
 				<input type="date" id="start-studying-date" name="start-studying-date">	
 				
-				<p>Length of study session:</p>
+				
+				<section id="objectives">
+					<p>Learning Objectives</p>
+						<span>+</span>
+						<label for="description-of-objectives">Description of Objectives:</label>
+						<input type="text" id="description-of-objectives" name="description-of-objectives">
 
-				<div>
-					<input type="radio" id="10-mins" name="lengthStudySession" 	value="10-mins">
-					<label for="10-mins">10 mins</label>
-				</div>
+						<label for="difficulty-select">How difficult do you find this Objective?</label>
 
-				<div>
-					<input type="radio" id="25-mins" name="lengthStudySession" 	value="25-mins">
-					<label for="25-mins">25 mins</label>
-				</div>
+					<select name="pets" id="difficulty-select">
+						<option value="">--Please choose an option--</option>
+						<option value="dog">Easy</option>
+						<option value="cat">Good</option>
+						<option value="hamster">Hard</option>
+					</select>
+					
 
-				<div>
-					<input type="radio" id="1 hour" name="lengthStudySession" 	value="1 hour">
-					<label for="1 hour">1 hour</label>
-				</div>
+
+				</section>
+				
+
+				<section id="duration">
+					<p>Length of study session:</p>
+
+					<div>
+						<input type="radio" id="10-mins" name="lengthStudySession" 	value="10-mins">
+						<label for="10-mins">10 mins</label>
+					</div>
+
+					<div>
+						<input type="radio" id="25-mins" name="lengthStudySession" 	value="25-mins">
+						<label for="25-mins">25 mins</label>
+					</div>
+
+					<div>
+						<input type="radio" id="1 hour" name="lengthStudySession" 	value="1 hour">
+						<label for="1 hour">1 hour</label>
+					</div>
+				</section>
 
 			<form>
 
