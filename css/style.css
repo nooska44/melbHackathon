@@ -47,9 +47,7 @@ form {
      margin: auto;
      padding: 3vh;
      padding: 4vw;
-     font-size: 1.5rem;
-    
-     
+     font-size: 1.5rem;   
 }
 
 
@@ -62,13 +60,11 @@ label {
      margin: .4rem 0;
  }
 
- #names input, #dates input, #objectives input {
-
+ #names input, #dates input, #objectives input, .objective, #difficulty {
      background: #85A8C0;
      border: none;
      border-radius: 4px;
      display: block;
-     /* width: 70vw; */
      height: 2rem;
      padding: 4vh;
      margin: 2vh 0;
@@ -86,6 +82,22 @@ label {
 #objectives {
      justify-content: flex-start;
 }
+ 
+.objective{
+     border-radius: 50%;
+}
+/* 
+.styled, #difficulty{
+     color: black;
+} */
+
+.styled:hover {          
+     background-color: #006494;
+}
+     
+      
+     
+
 
 footer {
 
