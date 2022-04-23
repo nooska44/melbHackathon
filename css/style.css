@@ -46,7 +46,9 @@ form {
      max-width: 80vw;
      margin: auto;
      padding: 3vh;
+     padding: 4vw;
      font-size: 1.5rem;
+    
      
 }
 
@@ -60,14 +62,30 @@ label {
      margin: .4rem 0;
  }
 
- #names input {
+ #names input, #dates input, #objectives input {
+
      background: #85A8C0;
      border: none;
      border-radius: 4px;
      display: block;
-     width: 70vw;
+     /* width: 70vw; */
      height: 2rem;
+     padding: 4vh;
+     margin: 2vh 0;
  }
+
+ #names input {
+      width: 100%;
+ }
+
+ #dates, #objectives {
+      display: flex;
+      justify-content: space-evenly;
+ }
+
+#objectives {
+     justify-content: flex-start;
+}
 
 footer {
 
